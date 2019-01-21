@@ -1,5 +1,5 @@
-Assumptions - A cash card or multiple cards one assumes is linked to an account therefore I have used two main data structures. The first 
-being a Cash Card which has an identifier and a pin and the second is an Account linked to a cash card which has a Balance property.
+Assumptions - A cash card or multiple cards one assumes is linked to an account therefore I have used two main data structures. 
+The first being a Cash Card which has an identifier and a pin and the second is an Account linked to a cash card which has a Balance property.
 
 The TransactionService does the job of withdrawing or topping up an Account.
 
