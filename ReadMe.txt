@@ -1,9 +1,11 @@
 Assumptions - A cash card or multiple cards one assumes is linked to an account therefore I have used two main data structures. 
 The first being a Cash Card which has an identifier and a pin and the second is an Account linked to a cash card which has a Balance property.
 
-The TransactionService does the job of withdrawing or topping up an Account.
+The CashCardService does Pin validation.
 
-The ATM Service behaves like an ATM interface and calls underlying services.
+The TransactionService does the job of withdrawing or topping up an Account linked to a Cash Card.
+
+The ATM Service behaves like an ATM interface and calls underlying services and is meant to be used by a Console/Web client.
 
 The repository store used is the MemoryCache object for simplicity.
 
