@@ -11,5 +11,4 @@ DI tool used is Autofac and test library is NUnit with Moq for mocking objects.
 
 Log4Net used for logging.
 
-The console runner runs one scenario of multiple withdrawals and top ups running at once to simulate the requirement of the card being virtual
-and therefore being used in many places at the same time.
+The console runner runs one scenario of multiple withdrawals and top ups running at once to simulate the requirement of the card being virtual and therefore being used in many places at the same time.
