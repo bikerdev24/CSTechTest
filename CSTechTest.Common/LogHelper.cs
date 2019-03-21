@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSTechTest.Common
 {
+    /// <summary>
+    /// Some commment
+    /// </summary>
     public class LogeHelper
     {
         public static log4net.ILog GetLogger([CallerFilePath] string fileName = "")
